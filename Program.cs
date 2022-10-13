@@ -17,9 +17,9 @@ namespace tp7_ejr_4
 
             while (opc != "x")
             {
-                Console.WriteLine ("e para conversion de euro");
-                Console.WriteLine ("d para conversion de dolar");
-                Console.WriteLine ("x para salir");
+                Console.WriteLine ("e-para conversion de euro");
+                Console.WriteLine ("d-para conversion de dolar");
+                Console.WriteLine ("x-para salir");
                 opc = Console.ReadLine();
 
                 switch (opc){
@@ -30,6 +30,7 @@ namespace tp7_ejr_4
                 Console.Clear();
                 resul= num*nume;
                 Console.WriteLine (" la cantidad de pesos que tiene es {0} ", resul);
+                Console.ReadKey();
                 break;
                 case "e":
 
@@ -40,7 +41,7 @@ namespace tp7_ejr_4
                 resul= num*numd;
 
                 Console.WriteLine ("la cantidad de pesos que tiene es {0}", resul);
-
+                Console.ReadKey();
                 break;
                 case "x":
                 Console.WriteLine ("saliste");
